@@ -49,9 +49,7 @@ body {
   font-size: 20px;
   font-family: "Capriola", sans-serif;
   cursor: pointer;
-  transition: all 0.2s ease;
-  width: 10%;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* sombra suave */
+  transition: all 0.2s ease;  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* sombra suave */
   touch-action: manipulation; /* para mejor respuesta en móviles */
 }
 

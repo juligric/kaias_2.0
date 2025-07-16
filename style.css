@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    height: 2000px; /* Solo para permitir el scroll */
+    height: 2000px; /* solo para ver el scroll */
   }
   
   .rectangulo {
@@ -14,6 +14,10 @@ body {
     border-bottom: 2px solid red;
     transition: transform 0.3s ease, opacity 0.3s ease;
     z-index: 1000;
+  
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    align-items: center;     /* centra verticalmente */
   }
   
   .rectangulo.oculto {
@@ -21,7 +25,13 @@ body {
     opacity: 0;
   }
   
-  @media (max-width: 480px) {
+  .text {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  @media (max-width: 500px) {
     .rectangulo {
       width: 100%;
     }

@@ -28,7 +28,7 @@ body {
 .imagen-logo {
   display: flex;
   align-items: center;
-  height: 80px;
+  height: 50px;
  
 }
 /* Estilo del contenedor del botón */

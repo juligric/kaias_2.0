@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height: 2000px; /* solo para ver el scroll */
+    background-color: #f7e1ef;
   }
   
   .rectangulo {
@@ -9,9 +10,8 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 50px;
-    background-color: pink;
-    border-bottom: 2px solid red;
+    height: 100px;
+    background-color: #e59dca;
     transition: transform 0.3s ease, opacity 0.3s ease;
     z-index: 1000;
   

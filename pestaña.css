@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 2000px; /* solo para ver el scroll */
+    background-color: #f7e1ef;
+  }
+  
+  .rectangulo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #e59dca;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    z-index: 1000;
+  
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    align-items: center;     /* centra verticalmente */
+  }
+  
+  .rectangulo.oculto {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  
+.imagen-logo {
+  display: flex;
+  align-items: center;
+  height: 80px;
+ 
+}

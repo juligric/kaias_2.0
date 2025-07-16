@@ -25,11 +25,42 @@ body {
     opacity: 0;
   }
   
-  .text {
-    font-size: 18px;
-    font-weight: bold;
-    color: black;
-  }
+.imagen-logo {
+  display: flex;
+  align-items: center;
+  height: 80px;
+ 
+}
+/* Estilo del contenedor del botón */
+.boton {
+  margin-top: 300px; /* Puedes ajustar el valor */
+  text-align: center;
+}
+
+
+
+/* Estilo visual del botón */
+.boton button {
+  background-color: #e57bbe;
+  color: #da3da1;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: "Capriola", sans-serif;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 10%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* sombra suave */
+  touch-action: manipulation; /* para mejor respuesta en móviles */
+}
+
+/* Efecto al presionar */
+.boton button:active {
+  transform: scale(0.96); /* se achica levemente */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* sombra más sutil */
+}
+
   
   @media (max-width: 500px) {
     .rectangulo {
